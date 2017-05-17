@@ -4,12 +4,14 @@ import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
 
 
 
+
 const Header = () => {
+
     return (
         <Navbar inverse collapseOnSelect>
             <Navbar.Header>
                 <Navbar.Brand>
-                    <a href="#"><i class="fa fa-book" aria-hidden="true"></i>React-Bootstrap</a>
+                    <a href="#"><i className="fa fa-book" aria-hidden="true"></i>React-Bootstrap</a>
                 </Navbar.Brand>
                 <Navbar.Toggle />
             </Navbar.Header>

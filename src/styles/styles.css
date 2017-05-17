@@ -26,9 +26,16 @@ html, body {
     width: 100%;
 }
 .item-homepage{
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(90,90,90, 0.05);
+    border-radius: 2%;
     padding: 5px;
+    margin-top: 20px;
+    background-color: rgba(90,90,90, 0.05);
 }
 .img-homepage{
     height: 200px;
+}
+.item-description{
+    text-align:center;
+    vertical-align:middle;
 }
